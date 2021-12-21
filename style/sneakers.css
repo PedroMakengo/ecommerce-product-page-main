@@ -30,7 +30,7 @@ body {
 
 .navegator .container .nav a {
   margin-right: 2rem;
-  color: hsl(219, 9%, 45%);
+  color: #68707d;
 
   font-family: Poppins;
   text-decoration: none;
@@ -49,5 +49,76 @@ body {
 .navegator .container .avatar-user .user img {
   width: 50%;
   float: right;
+}
 
+section.container {
+  width: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 4rem auto;
+}
+
+
+section.container .content-img {
+  width: 50%;
+}
+
+section.container .first-img {
+  width: 70%;
+  border-radius: 0.5rem;
+}
+
+.slider-imgs {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.slider-imgs img {
+  width: 20%;
+  margin-right: 0.1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.slider-imgs img:first-child {
+  border: 3px solid #ff7d1a;
+  opacity: 0.7;
+}
+
+section.container .content-describe {
+  width: 50%;
+  font-family: Poppins;
+}
+
+.content-describe span {
+  color: #ff7d1a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content-describe h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.content-describe p {
+  color: #68707d;
+}
+
+#percentagem {
+  background-color: #ff7d1a28;
+  color: #ff7d1a;
+  font-size: 0.6rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+#count-new {
+  color: #68707d5e;
+  text-decoration-line: line-through;
 }
