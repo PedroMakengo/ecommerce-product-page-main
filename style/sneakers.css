@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.navegator {
+  height: 15vh;
+  margin-bottom: 50px;
+}
+
+.navegator .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 2px solid #b6bcc844;
+}
+
+.navegator .container .nav {
+  width: 70%;
+}
+
+.navegator .container .nav a {
+  margin-right: 2rem;
+  color: hsl(219, 9%, 45%);
+
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+.navegator .container .avatar-user {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+} 
+
+.icon-cart .add-cart {
+  cursor: pointer;
+}
+
+.navegator .container .avatar-user .user img {
+  width: 50%;
+  float: right;
+
+}
