@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
-  <link rel="stylesheet" href="style/sneakers.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <header class="navegator">
-    <div class="container">
-      <div class="logo">
-        <img src="./images/logo.svg" alt="">
-      </div>
-      <nav class="nav">
-        <a href="#">Collections</a>
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
-      <div class="avatar-user">
-        <div class="icon-cart">
-          <img src="./images/icon-cart.svg" alt="" class="add-cart">
+    <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="stylesheet" href="style/sneakers.css" />
+  </head>
+  <body>
+    <header class="navegator">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" />
         </div>
-        <div class="user">
-          <img src="./images/image-avatar.png" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="container">
-      <div class="content-img">
-        <img src="./images/image-product-1.jpg" class="first-img" alt="">
-
-        <div class="slider-imgs">
-          <img src="./images/image-product-1-thumbnail.jpg" alt="">
-          <img src="./images/image-product-2-thumbnail.jpg" alt="">
-          <img src="./images/image-product-3-thumbnail.jpg" alt="">
-          <img src="./images/image-product-4-thumbnail.jpg" alt="">
+        <nav class="nav">
+          <a href="#">Collections</a>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="avatar-user">
+          <div class="icon-cart">
+            <img src="./images/icon-cart.svg" alt="" class="add-cart" />
+          </div>
+          <div class="user">
+            <img src="./images/image-avatar.png" alt="" />
+          </div>
         </div>
       </div>
-      <div class="content-describe">
-        <span>Sneaker Company</span>
-        <h1>
-          Fall Limited Edition Sneakers
-        </h1>
-        <p>
-          These low-profile sneakers are your perfect casual wear companion. Featuring a 
-          durable rubber outer sole, they’ll withstand everything the weather can offer.
-        </p>
-        <h2>$125.00 <sup id="percentagem">50%</sup></h2>
-        <span id="count-new">$250.00</span>
+    </header>
 
+    <main>
+      <section class="container">
+        <div class="content-img">
+          <img src="./images/image-product-1.jpg" class="first-img" alt="" />
 
-      </div>
-    </section>
-  </main>
-  
-  
-  
-  
+          <div class="slider-imgs">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+          </div>
+        </div>
+        <div class="content-describe">
+          <span>Sneaker Company</span>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <h2>$125.00 <sup id="percentagem">50%</sup></h2>
+          <span id="count-new">$250.00</span>
 
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
-</body>
+          <div class="buttons">
+            <div class="button-display">
+              <button class="decrement-count">
+                <img src="./images/icon-minus.svg" alt="">
+              </button>
+              <button id="button-count">0</button>
+              <button class="increment-count">
+                <img src="./images/icon-plus.svg" alt="">
+              </button>
+            </div>
+            <button class="add-to-cart">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
